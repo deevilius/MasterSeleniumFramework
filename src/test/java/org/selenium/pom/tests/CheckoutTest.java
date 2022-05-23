@@ -11,12 +11,14 @@ import org.selenium.pom.pages.CheckoutPage;
 import org.selenium.pom.utils.FakerUtils;
 import org.selenium.pom.utils.JacksonUtils;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 public class CheckoutTest extends BaseTest {
 
+    @Ignore
     @Test(dataProvider = "getImportantCountries", dataProviderClass = MyDataProvider.class)
     public void guestCheckoutUsingDirectBankTransfer(BillingAddress billingAddress) throws IOException {
         //BillingAddress billingAddress = JacksonUtils.deserializeJson("myBillingAddress.json", BillingAddress.class);
