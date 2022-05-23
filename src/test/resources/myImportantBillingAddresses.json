@@ -1,0 +1,22 @@
+[
+  {
+    "firstName": "demo",
+    "lastName": "user",
+    "country": "India",
+    "addressLineOne": "San Francisco",
+    "city": "San Francisco",
+    "state": "Maharashtra",
+    "postalCode": "411001",
+    "email": "askomdch@gmail.com"
+  },
+  {
+    "firstName": "demo",
+    "lastName": "user",
+    "country": "United States (US)",
+    "addressLineOne": "San Francisco",
+    "city": "San Francisco",
+    "state": "Alabama",
+    "postalCode": "411001",
+    "email": "askomdch@gmail.com"
+  }
+]
